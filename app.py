@@ -20,6 +20,7 @@ def beranda():
  layanan="Portal PMB Universitas Teknologi Muhammadiyah",
  versi=os.environ.get("APP_VERSION", "v1"),
  gelombang=os.environ.get("PMB_GELOMBANG", "belum diatur"),
+ pengumuman="Pendaftaran gelombang 2 dibuka",
  lingkungan=os.environ.get("VERCEL_ENV", "lokal"),
  region=os.environ.get("VERCEL_REGION", "tidak diketahui"),
  commit=commit,
